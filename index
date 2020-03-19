@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My StartNg Profile</title>
+</head>
+<body>
+	<header> MY StartNg Profile </header>
+
+	<section>
+		<div class="watever">
+			<label for="NAME">Name:</label>
+			<span id="NAME"> ADEYEMI IBRAHIM KABIRU </span>
+		</div>
+		
+		<div class="watever">
+			<label for="USERNAME">Username:</label>
+			<span id="USERNAME"> adevash07 </span>
+		</div>
+		
+		<div class="watever">
+			<label for="email">Email:</label>
+			<span id="firstname"> adeyemiibrahim223@gmail.com </span>
+		</div>
+		
+		<div class="watever">
+			<label for="Track"> Tracks:</label>
+			<span id="Track"> Frontend & Backend </span>
+		</div>
+
+			<div class="watever">
+			<label for="courses"> COURSES:</label>
+			<span id="courses"> HTML,CSS,JAVASCRIPT  </span>
+			<span id="courses"> and NODEJS.  </span>
+
+		</div>
+	</section>
+<style type="text/css">
+	header {
+		text-align: center;
+		font-size: 2em;
+		margin-bottom: 10px;
+		background-color:#999;
+	}
+	.watever {
+		margin:15px;
+	}
+</style>
+</body>
+</html>
