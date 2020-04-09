@@ -1,3 +1,10 @@
+/////////////////
+/////				made a mistake with link submission.
+////////////////here is the real link: https://adevash07.github.io/adevash07/piggyvest/piggy.html
+
+
+
+/////////////////////////Beginning of Javascript task 2//////////////////
 var data = [
 	{
 		principal : 2500,
