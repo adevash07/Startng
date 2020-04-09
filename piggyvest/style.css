@@ -5,6 +5,7 @@
 	padding: 0;
 	height: 100%;
 	overflow: auto;
+	font-family: "oxygen";
 }
 
 	 
@@ -195,7 +196,6 @@ transform: rotate(15deg);
 	align-items: center;
 	justify-content: center;
 	margin-top: 0px;
-	;
 }
 .form-container{
 	margin-top: 70px;
@@ -216,25 +216,36 @@ transform: rotate(15deg);
 .form-container p, .login {
 	text-align: center;
 	margin-top: 2px;
+	font-size: 14px;
+	opacity: 0.7;
 }
 
 .input {
 	width: 27em;
 	height: 45px;
 	border-radius: 4px;
-	background-color: #DEEBF1;
+	background-color: #ebf4fa;
 	margin:5px auto;
 	display: block;
 	padding: 3px 10px 3px 10px;
+	outline: none;
+	box-shadow: none;
+	opacity: 0.7;
+	border:none;
 }
 
+select:hover {
+	background-color: white;
+}
 
 .input-wrapper {
 	margin-top: 30px;
 	}
 
 .label{
+	font-size: 12px;
 	margin-left:30px;
+	font-weight: bold;
 }
 
 #AboutUs{
@@ -255,7 +266,13 @@ transform: rotate(15deg);
 	outline: none;
 	box-shadow: none;
   padding: 3px 10px 3px 10px;
+  box-sizing: border-box;
+  border:none;
+  font-size: 0.85em;
+  font-weight: bolder;
+
 }
+
 .logo{
   margin-top: 60px;
   display: flex;
@@ -276,5 +293,4 @@ color: #888;
 }
 .love,.inner2, .cross{
 right:-20%;
-}
 }
