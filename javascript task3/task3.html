@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+	function makeSpeechFrom(digit) {
+	var word = " ";
+	var speech = [];
+	for (var i = 1; i < (digit + 1); i++) {
+		if (([i] % 2 == 0) && ([i] % 3 == 0) && ([i] % 5== 0))  word = "yu-gi-oh";
+
+		else if ([i] % 2 == 0 && [i] % 3 == 0 && [i] % 5 !== 0) word = "yu-gi";
+
+	 	else if ([i] % 5 == 0 && [i] % 3 == 0 && [i] % 2 !== 0) word = "gi-oh";
+
+	 	else if ([i] % 2 == 0 && [i] % 5 == 0 && [i] % 3 !== 0) word = "yu-oh";
+		
+		else if (([i] % 2 == 0) && ([i] % 3 !== 0) && ([i] % 5 !== 0)) word = "yu";
+	
+		else if (([i] % 3 == 0) && ([i] % 2 !== 0) && ([i] % 5 !== 0)) word = "gi";
+	
+		else if (([i] % 5 == 0) && ([i] % 3 !== 0) && ([i] % 2 !== 0)) word = "oh";
+
+		else word = [i]; 
+
+	speech.push(word);
+	}
+	return speech;
+	console.log(speech);
+}
+
+makeSpeechFrom(100);
+
+makeSpeechFrom(10);
+
+</script>
+</html>
+
+
